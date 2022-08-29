@@ -13,14 +13,14 @@ embed{
     height: 275px;
 }
 body{
-    padding: 10px 10px 20px 10px;
+    padding: 15px 15px 25px 15px;
 }
 hr{
     border: 0.25px solid #eaeaea;
 }
 h1{
     font-size: 42.5px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     text-align: center;
 }
 h1 a{
@@ -46,7 +46,7 @@ a{
     color: #000;
 }
 hr, h1, h2, h3, h4, ul, p, img, embed{
-    margin: 10px 0 10px 0;
+    margin: 15px 0 15px 0;
 }
 .center{
     text-align: center;

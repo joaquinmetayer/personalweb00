@@ -5,6 +5,10 @@
     max-width: 35em;
     scroll-behavior: smooth;
 }
+::selection {
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+}
 img{
     width: 100%;
 }
@@ -39,7 +43,7 @@ ul{
 li{
     list-style: none;
 }
-li a{
+li a, .no-link-style{
     text-decoration: none;
 }
 a{
@@ -50,4 +54,27 @@ hr, h1, h2, h3, h4, ul, p, img, embed{
 }
 .center{
     text-align: center;
+}
+.hero-container{
+    font-size: 2.9em;
+    padding: 1em 0 1em 0;
+    text-align: justify !important;
+}
+.big-text{
+    font-weight: bold;
+    color: #000; 
+}
+.small-text{
+    color: #eaeaea;
+}
+.contacto-trabajemos-text{
+    padding-top: 0.35em;
+    font-size: 3.45em;
+    text-align: center;
+}
+.contacto-email{
+    font-size: 2.25em;
+    padding-bottom: 1em !important;
+    font-weight: bold;
+
 }

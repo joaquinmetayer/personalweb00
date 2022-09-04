@@ -56,8 +56,8 @@ hr, h1, h2, h3, h4, ul, p, img, embed{
     text-align: center;
 }
 .hero-container{
-    font-size: 2.9em;
-    padding: 1em 0 1em 0;
+    font-size: 2.5em;
+    padding:0.5em 0 0.5em 0;
     text-align: justify !important;
 }
 .big-text{
@@ -69,12 +69,12 @@ hr, h1, h2, h3, h4, ul, p, img, embed{
 }
 .contacto-trabajemos-text{
     padding-top: 0.35em;
-    font-size: 3.45em;
+    font-size: 2.6em;
+
     text-align: center;
 }
 .contacto-email{
-    font-size: 2.25em;
+    font-size: 1.7em;
     padding-bottom: 1em !important;
     font-weight: bold;
-
 }

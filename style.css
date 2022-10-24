@@ -49,16 +49,11 @@ li a, .no-link-style{
 a{
     color: #000;
 }
-hr, h1, h2, h3, h4, ul, p, img, embed{
-    margin: 15px 0 15px 0;
-}
 .center{
     text-align: center;
 }
 .hero-container{
     font-size: 2.5em;
-    padding:0.5em 0 0.5em 0;
-    text-align: justify !important;
 }
 .big-text{
     font-weight: bold;
@@ -76,4 +71,8 @@ hr, h1, h2, h3, h4, ul, p, img, embed{
     font-size: 1.7em;
     padding-bottom: 1em !important;
     font-weight: bold;
+}
+h1, h2, h3, h4, ul, p, 
+hr, hero-container{
+    margin: 15px 0 15px 0;
 }

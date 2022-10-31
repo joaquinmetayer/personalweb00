@@ -14,7 +14,7 @@ embed {
   height: 315px;
 }
 a {
-  color: #244f7b;
+  color: #01366a;
   font-weight: bold;
 }
 h2 a {
@@ -23,7 +23,4 @@ h2 a {
 }
 hr {
   border: 0.01px solid #00000025;
-}
-.s-img {
-  width: 184px;
 }

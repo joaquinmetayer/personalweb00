@@ -4,10 +4,9 @@
 body {
   padding: 20px;
   max-width: 500px;
-  margin: 0 auto;
+  margin: auto;
 }
-img,
-embed {
+img, embed {
   width: 100%;
 }
 embed {

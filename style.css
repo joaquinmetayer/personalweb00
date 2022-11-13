@@ -16,7 +16,7 @@ img, embed {
   width: 100%;
 }
 embed {
-  height: 300px;
+  aspect-ratio: 16/9;
 }
 hr {
   border: 0.01px solid #00000025;

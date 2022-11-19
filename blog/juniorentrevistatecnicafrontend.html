@@ -101,10 +101,16 @@
     <p>3 - Qué es el virtual DOM y para que es usado?</p>
     <p>El Virtual DOM es una representación del DOM guardada en memoria, que actúa de intermediario entre los estados de la aplicación y los estados del DOM (vistos por el usuario). Cuando ocurre un cambio en la aplicación web, el virtual DOM interpreta dichos cambios y calcula la manera más eficiente de actualizar el DOM para que renderice la menor cantidad de cambios posibles.</p>
     <p>4 - Diferencias entre state ful y state less component?</p>
-    <p>El Virtual DOM es una representación del DOM guardada en memoria, que actúa de intermediario entre los estados de la aplicación y los estados del DOM (vistos por el usuario). Cuando ocurre un cambio en la aplicación web, el virtual DOM interpreta dichos cambios y calcula la manera más eficiente de actualizar el DOM para que renderice la menor cantidad de cambios posibles.</p>
+    <p>Stateful es un componente smart, el cual se utiliza para cosas mas funcionales mas allá de cosas simples como mostrar datos como stateless conocidos también por dumb components.</p>
+    <p>O mejor explicado:</p>
+    <p>A stateless component is usually associated with how a concept is presented to the user. It is similar to a function in that, it takes an input (props) and returns the output (react element).</p>
+    <p>A stateful component is always a class component. It is created by extending the React.Component class. A stateful component is dependent on it’s state object and can change it’s own state. The component re-renders based on changes to it’s state, and may pass down properties of it’s state to child components as properties on a props object.</p>
     <p>5 - Listar los lifecycle methods.</p>
     <p><a href="https://www.geeksforgeeks.org/explain-lifecycle-methods-of-react-components/" target="_blank">Directamente en la documentación de React</a>.</p>
     <p>6 - Qué son los hooks?</p>
+    <p>useState: para definir un estado o mas conocido en JS como variable.</p>
+    <p>useEffect: para dar una acción o perform de mi component de forma paralela, asincrona (side effects).</p>
+    <p>useContext: forma de manejar el estado o varios estados de forma global.</p>
     <p><a href="https://www.youtube.com/c/BetoMoedano" target="_blank">Beto Modeano</a> lo explica mejor en <a href="https://www.youtube.com/watch?v=dhrF36pjYb8" target="_blank">este video</a>.</p>
     <p>7 - Qué es Redux y para qué sirve?</p>
     <p>En <a href="https://desarrolloweb.com/articulos/que-es-redux.html" target="_blank">este extenso post</a> de <a href="https://desarrolloweb.com/" target="_blank">desarrolloweb.com</a> lo vemos a detalle.</p>

@@ -68,11 +68,11 @@
     <p>7 - Diferencia entre arrow functions y regular functions.</p>
     <p>Arrow functions:</p>
     <p>Son anónimas.<br>
-    Por defecto retornan (sin colocar el resturn).<br>
+    Por defecto retornan (sin colocar el return).<br>
     Podemos guardarlas en una variable.<br>
-    Si en los parametros que le pasamos, tenemos uno, podemos quitar los parentesis.
-    Si la instrucción es una, podemos quitar los corchetes.
-    Si no hay parametro podemos pasarle un guión bajo (_).
+    Si en los parametros que le pasamos, tenemos uno, podemos quitar los parentesis.<br>
+    Si la instrucción es una, podemos quitar los corchetes.<br>
+    Si no hay parametro podemos pasarle un guión bajo (_).<br>
     El this es diferente de las regunales, nos lleva al objeto general window.</p>
     <p>Regular functions: lo contrario de la arrow.</p>
     <p>Video de <a href="https://www.youtube.com/watch?v=Zaw29SwR8L8" target="_blank">Damian Sire</a></p>
@@ -80,7 +80,7 @@
     <p>8 - Qué es una clase?</p>
     <p>Explicación facil y sensilla según yo: como si fuese una plantilla para crear objetos tipo “molde de galletas”.</p>
     <p>Ahora, explicado de forma profesional en la <a href="https://www.w3schools.com/JsrEF/jsref_classes.asp" target="_blank">documentación de W3School</a>.</p>
-    <p>9 - Qué es elevnto loop? Cómo maneja JS el asincronismo?</p>
+    <p>9 - Qué es elevnt loop? Cómo maneja JS el asincronismo?</p>
     <p>Es lo que se encarga de ejecutar las funciones asíncronas, explicado en <a href="https://www.youtube.com/watch?v=h1P2vmquFMA&t" target="_blank">este video</a> por <a href="https://www.youtube.com/channel/UCFfiEEdd_-Iquy9QyW-Jfzw" target="_blank">El Cloud de Pau</a>.</p>
     <p>10 - Consideraciones al usar el this.</p>
     <p>En este tema no he encontrado mucha información al no entender a que se refiere con la pregunta, pero un detalle del this es que hace referencia al contexto en el que se esta creando.</p>
@@ -108,6 +108,7 @@
     <p>5 - Listar los lifecycle methods.</p>
     <p><a href="https://www.geeksforgeeks.org/explain-lifecycle-methods-of-react-components/" target="_blank">Directamente en la documentación de React</a>.</p>
     <p>6 - Qué son los hooks?</p>
+    <p>Te permiten usar estado y otras características de React sin escribir una clase.</p>
     <p>useState: para definir un estado o mas conocido en JS como variable.</p>
     <p>useEffect: para dar una acción o perform de mi component de forma paralela, asincrona (side effects).</p>
     <p>useContext: forma de manejar el estado o varios estados de forma global.</p>
@@ -115,8 +116,8 @@
     <p>7 - Qué es Redux y para qué sirve?</p>
     <p>En <a href="https://desarrolloweb.com/articulos/que-es-redux.html" target="_blank">este extenso post</a> de <a href="https://desarrolloweb.com/" target="_blank">desarrolloweb.com</a> lo vemos a detalle.</p>
     <p><b>PROGRAMACION ORIENTADA A OBJETOS (POO):</b></p>
-    <p>La programación Orientada a objetos se define como un paradigma de la programación, una manera de programar específica, donde se organiza el código en unidades denominadas clases, de las cuales se crean objetos que se relacionan entre sí para conseguir los objetivos de las aplicaciones.</p>
-    <p>Podemos entender la programación Orientada a objetos (POO) como una forma especial de programar, más cercana a como expresaríamos las cosas en la vida real que otros tipos de programación, que permite diseñar mejor las aplicaciones, llegando a mayores cotas de complejidad, sin que el código se vuelva inmanejable.</p>
+    <p>La programación orientada a objetos se define como un paradigma de la programación, una manera de programar específica, donde se organiza el código en unidades denominadas clases, de las cuales se crean objetos que se relacionan entre sí para conseguir los objetivos de las aplicaciones.</p>
+    <p>Podemos entender la programación orientada a objetos (POO) como una forma especial de programar, más cercana a como expresaríamos las cosas en la vida real que otros tipos de programación, que permite diseñar mejor las aplicaciones, llegando a mayores cosas de complejidad, sin que el código se vuelva inmanejable.</p>
     <p><a href="https://desarrolloweb.com/articulos/499.php">Ampliado aquí</a>.</p>
     <p>Patrones de diseño mas utilizados explicado por <a href="https://www.youtube.com/c/HolaMundoDev" target="_blank">Hola mundo</a> en <a href="https://www.youtube.com/watch?v=JI_THVXPToQ&t=244s" target="_blank">este video</a>.</p>
     <p><b>UNIT TESTING:</b></p>
@@ -126,7 +127,12 @@
     <p><a href="https://www.youtube.com/c/EDteam" target="_blank">EDteam</a> te lo explica en <a href="https://www.youtube.com/watch?v=sLexw-z13Fo" target="_blank">este video</a>.</p>
     <p><b>EJERCICIOS SIN ESCRIBIR:</b></p>
     <p>1 - Tenés un string de nombres separados por una coma, como hago para separarlos y pasarlos a un array?</p>
+    <p>var nuevaVar = str.split(',');</p>
     <p>2 - Ahora tenemos el array con los nombres pero algunos están repetidos, como haces para sacar los nombres repetidos?</p>
+    <p>const myArray = [1, 2, 2, 3, 2, 3, 5, 4, 5, 'a', 6, 6, 'a'];</p>
+    <p>const myUniqueArray = [...new Set(myArray)];</p>
+    <p>console.log(myUniqueArray);</p>
+    <p>[1, 2, 3, 5, 4, 'a', 6]</p>
     <p><b>PARTE DOS</b> (recursos utiles)</p>
     <p>No son muchos, pero no necesitamos mas yo creo... entender lo que necesitamos saber, estudiar, aplicar, practicar y postular hasta contratar, con rima y todo!</p>
     <p>- <a href="https://www.youtube.com/watch?v=65nQKFgEyOU" target="_blank">35 preguntas de entrevista técnica para Frontend</a></p>

@@ -7,19 +7,15 @@
 body {
   font-family: sans-serif;
   padding: 0px 20px;
-  max-width: 400px;
-}
-hr {
-  border: 0.75px solid;
-  margin-bottom: 0;
-}
-div {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
+  max-width: 600px;
 }
 video {
   width: 100%;
-  margin-top: 5px;
   filter: contrast(10);
+}
+a{
+  font-weight: bold;
+}
+h1{
+  font-size: 35px;
 }

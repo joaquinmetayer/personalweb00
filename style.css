@@ -1,23 +1,16 @@
+*{
+  background-color: #000000;
+  color: #fff;
+  margin: 10px 0;
+}
 body {
-  padding: 20px;
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
   font-family: sans-serif;
 }
 a {
   font-weight: bold;
-  color: #000000;
 }
-h2 a {
-  text-decoration: none;
-  color: #000;
-}
-img, embed {
-  width: 100%;
-}
-embed {
-  aspect-ratio: 16/9;
-}
-hr {
-  border: 0.01px solid #00000025;
+img{
+  width: 247px;
 }

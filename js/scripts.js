@@ -24,7 +24,6 @@ window.onload = function () {
     "Soon news about my projects",
     '<a target="_blank" href="https://www.youtube.com/@joaquinmetayer">youtube.com/@joaquinmetayer</a>',
     '<a target="_blank" href="https://www.instagram.com/joaquinmetayer/">instagram.com/joaquinmetayer</a><br><a target="_blank" href="https://www.linkedin.com/in/joaquinmetayer/">linkedin.com/in/joaquinmetayer</a><br><a target="_blank" href="https://github.com/joaquinmetayer">github.com/joaquinmetayer</a>',
-    '<a target="_blank" href="https://indexoneplace.netlify.app">indexoneplace.app</a>',
     '<a target="_blank" href="mailto:joaquinmetayer@gmail.com">joaquinmetayer@gmail.com</a>',
     "Remember... go simple and keep<br>pushing",
     getCurrentTime(),

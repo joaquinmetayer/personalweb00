@@ -1,0 +1,26 @@
+* {
+  color: #000000;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  padding: 20px;
+  gap: 5px;
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+p{
+    padding: 5px 0 5px 0;
+}
+.profile-photo {
+  width: 150px;
+}
+.name{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.category{
+    color: #747474;
+}

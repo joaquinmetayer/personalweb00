@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   user-select: none;
+  cursor: pointer;
 }
 body {
   gap: 5px;

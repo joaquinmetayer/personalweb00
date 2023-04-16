@@ -1,13 +1,13 @@
-let music = new Audio("./Hvitserk's choice.mp3")
+let music = new Audio("./0416.mp3")
 let contentJo = document.getElementById("content");
 let screenSaver = document.getElementById("saver");
 let clickUser = false;
 
 document.addEventListener("click", function (e) {
   if (e.target.tagName.toLowerCase() !== "a" && clickUser == false) {
+    music.play();
     contentJo.style.display = "none";
     screenSaver.style.display = "flex";
-    music.play();
     requestAnimationFrame(renderFrame);
     clickUser = true;
     COUNT = 5;

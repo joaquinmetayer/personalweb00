@@ -19,7 +19,7 @@ window.onload = function () {
     "Soy Joaquín",
     "Software engineer rodeado<br>de mucha tecnología (y café)",
     "Trabajo en <a target='_blank' href='https://www.instagram.com/bitlogic.io/'>@bitlogic</a>",
-    'Tengo un canal de <a target="_blank" href="https://www.youtube.com/@jometayer">YouTube</a>',
+    'Tengo un canal de <a target="_blank" href="https://www.youtube.com/@joaquinmetayer">YouTube</a>',
     'Estoy en <a target="_blank" href="https://www.instagram.com/joaquinmetayer/">Instagram</a> y <a target="_blank" href="https://www.linkedin.com/in/joaquinmetayer/">LinkedIn</a>',
     'Mi código en <a target="_blank" href="https://github.com/joaquinmetayer">GitHub</a>',
     'Mi Email? <a target="_blank" href="mailto:joaquinmetayer@gmail.com">Click acá</a>',

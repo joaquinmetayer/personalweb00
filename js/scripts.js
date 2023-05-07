@@ -4,26 +4,20 @@ window.onload = function () {
   var loadingText = "<b>•</b><b>•</b><b>•</b>";
   var messageIndex = 0;
 
-  var getCurrentTime = function () {
-    var date = new Date();
-    var hours = date.getHours();
-    var minutes = date.getMinutes();
-    var current = hours + minutes * 0.01;
-    if (current >= 5 && current < 13) return "Buenos días.";
-    if (current >= 14 && current < 20) return "Buenas tardes.";
-    if (current >= 21 || current < 5) return "Buenas noches.";
-  };
-
   var messages = [
-    "Hola 👋",
-    "Soy Joaquín",
-    "Software engineer rodeado<br>de mucha tecnología (y café)",
-    "Trabajo en <a target='_blank' href='https://www.instagram.com/bitlogic.io/'>@bitlogic</a>",
-    'Tengo un canal de <a target="_blank" href="https://www.youtube.com/@joaquinmetayer">YouTube</a>',
-    'Estoy en <a target="_blank" href="https://www.instagram.com/joaquinmetayer/">Instagram</a> y <a target="_blank" href="https://www.linkedin.com/in/joaquinmetayer/">LinkedIn</a>',
-    'Mi código en <a target="_blank" href="https://github.com/joaquinmetayer">GitHub</a>',
-    'Mi Email? <a target="_blank" href="mailto:joaquinmetayer@gmail.com">Click acá</a>',
-    getCurrentTime(),
+    "Hey there 👋",
+    "I'm Joaquin",
+    "A software engineer in<br>frontend development",
+    "with Angular framework 👹",
+    "Working at <a target='_blank' href='https://www.instagram.com/bitlogic.io/'>@bitlogic</a>",
+    "Documenting my process<br>and learnings on <a target='blank' href='https://www.youtube.com/@joaquinmetayer'>YouTube</a>",
+    "Personal life on <a target='_blank' href='https://www.instagram.com/joaquinmetayer/'>Instagram</a>",
+    "Profesional profile on<br><a target='_blank' href='https://www.linkedin.com/in/joaquinmetayer/'>LinkedIn</a> 👨🏻‍💻",
+    "See my code on <a target='_blank' href='https://github.com/joaquinmetayer'>GitHub</a>",
+    "Send me an email <a target='_blank' href='mailto:joaquinmetayer@gmail.com'>here</a>",
+    "☕️👨🏻‍💻🧠🤓📈😎👹👀🎯",
+    "See you on the real life!"
+
   ];
 
   var getFontSize = function () {

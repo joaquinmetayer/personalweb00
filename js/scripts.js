@@ -8,14 +8,13 @@ window.onload = function () {
     "Hey there 👋",
     "I'm Joaquin",
     "A software engineer in<br>frontend development",
-    "with Angular framework 👹",
+    "with Angular framework",
     "Working at <a target='_blank' href='https://www.instagram.com/bitlogic.io/'>@bitlogic</a>",
     "Documenting my process<br>and learnings on <a target='blank' href='https://www.youtube.com/@joaquinmetayer'>YouTube</a>",
+    "Find me on <a target='_blank' href='https://www.linkedin.com/in/joaquinmetayer/'>LinkedIn</a>",
     "Personal life on <a target='_blank' href='https://www.instagram.com/joaquinmetayer/'>Instagram</a>",
-    "Professional profile on<br><a target='_blank' href='https://www.linkedin.com/in/joaquinmetayer/'>LinkedIn</a> 👨🏻‍💻",
     "See my code on <a target='_blank' href='https://github.com/joaquinmetayer'>GitHub</a>",
     "Send me an email <a target='_blank' href='mailto:joaquinmetayer@gmail.com'>here</a>",
-    "☕️👨🏻‍💻🧠🤓📈😎👹👀🎯",
     "See you on the real life!"
 
   ];

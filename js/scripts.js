@@ -8,7 +8,6 @@ window.onload = function () {
     "Hey there 👋",
     "I'm Joaquin",
     "A software engineer in<br>frontend development",
-    "with Angular framework",
     "Working at <a target='_blank' href='https://www.instagram.com/bitlogic.io/'>@bitlogic</a>",
     "Documenting my process<br>and learnings on <a target='blank' href='https://www.youtube.com/@joaquinmetayer'>YouTube</a>",
     "Find me on <a target='_blank' href='https://www.linkedin.com/in/joaquinmetayer/'>LinkedIn</a>",

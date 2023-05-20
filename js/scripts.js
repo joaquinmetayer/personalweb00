@@ -13,7 +13,6 @@ window.onload = function () {
     "Find me on <a target='_blank' href='https://www.linkedin.com/in/joaquinmetayer/'>LinkedIn</a>",
     "Personal life on <a target='_blank' href='https://www.instagram.com/joaquinmetayer/'>Instagram</a>",
     "See my code on <a target='_blank' href='https://github.com/joaquinmetayer'>GitHub</a>",
-    "<a target='_blank' href='https://arrow99.xyz/'>Arrow99</a> my side project",
     "Send me an email <a target='_blank' href='mailto:joaquinmetayer@gmail.com'>here</a>",
     "See you on the real life!"
   ];

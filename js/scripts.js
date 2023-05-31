@@ -9,7 +9,6 @@ window.onload = function () {
     "I'm Joaquin",
     "A software engineer",
     "Working at <a target='_blank' href='https://www.instagram.com/bitlogic.io/'>@bitlogic</a>",
-    "Creator of <a target='_blank' href='https://www.ngod.xyz'>NGOD</a> project",
     "Documenting on <a target='blank' href='https://www.youtube.com/@joaquinmetayer'>YouTube</a>",
     "Find me on <a target='_blank' href='https://www.linkedin.com/in/joaquinmetayer/'>LinkedIn</a>",
     "Personal life on <a target='_blank' href='https://www.instagram.com/joaquinmetayer/'>Instagram</a>",

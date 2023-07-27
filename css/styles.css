@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -14,9 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 85vh;
+  min-height: 90vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #00007C;
   padding: 20px;
 }
 img{
@@ -24,7 +22,7 @@ img{
   padding-bottom: 5px;
 }
 .jbw{
-  width: 70px;
+  width: 60px;
   margin: 20px;
 }
 h1{
@@ -36,6 +34,7 @@ h1{
   width: 255px;
   border-radius: 5px;
   font-size: 20px;
+  color: #000;
   background: #ecececb0;
   text-align: center;
   text-decoration: none;
@@ -43,12 +42,12 @@ h1{
   transition: 0.5s;
 }
 .btn:hover{
-  background: #f8f7f780;
+  background: #f3f3f380;
   transition: 0.5s;
-
 }
 p{
   padding-top: 18px;
   text-align: center;
   font-size: 20px;
+  color: #00000030;
 }

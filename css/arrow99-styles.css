@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "Tiro Gurmukhi", serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+body{
+    display: flex;
+}
+.container-main{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-photo{
+    width: 50%;
+    height: 100vh;
+    contain: ;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    font-family: "Tiro Gurmukhi", serif;
+}
+.subtitle{
+    color: #00000095;
+    padding-top: 2px;
+}
+input{
+    text-transform: lowercase;
+    padding: 8px 6px 6px 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 229px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #00000050;
+    font-size: 15px;
+}
+input:focus{
+    outline: none;
+    box-shadow: none; 
+}
+input::placeholder{
+    color: #00000050;
+}
+form{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 8px 8px 8px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #00000050;
+    cursor: pointer;
+    transition: 0.25s;
+}
+button:disabled{
+    color: #d7d7d7;
+}
+button:hover{
+    transition: 0.25s;
+    background-color: #1f1f1f;
+}
+.ingrese-valido{
+    text-align: center;
+    color: #00000095;
+    padding-top: 12px;
+    visibility: hidden;
+}
+@media (max-width: 800px) {
+    body{
+        flex-direction: column;
+    }
+    .container-main{
+        width: 100%;
+        height: 50vh;
+    }
+    .container-photo{
+        width: 100%;
+        height: 50vh;
+    }
+}

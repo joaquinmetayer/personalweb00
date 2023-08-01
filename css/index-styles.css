@@ -19,13 +19,13 @@ body {
 }
 img{
   width: 100%;
-  padding-bottom: 5px;
 }
 .jbw{
   width: 60px;
   margin: 20px;
+  padding-bottom: 5px;
 }
-h1{
+h2{
   padding-bottom: 20px;
 }
 .btn{

@@ -89,3 +89,8 @@ button:hover{
     padding: 8px;
     display: none;
 }
+@media (max-width: 600px) {
+    .container-main{
+        height: 80vh;
+    }
+}

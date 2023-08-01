@@ -5,9 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ARROW99</title>
   <link rel="stylesheet" href="./css/arrow99-styles.css" />
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./img/white.png" type="image/x-icon" />
 </head>
-<script type="text/javascript">
+<body>
+    <div class="container-main">
+        <h1>ARROW99</h1>
+        <p class="subtitle">Desde 2018, nos vemos en 2024.</p>
+        <p id="gracias">¡Gracias por subscribirte!</p>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none">
+        </iframe>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYlfefhaxRXCHrJuQwjJLJ5tbTP_hY2ZbL4o2Kuvq2Qb1TdA/formResponse" method="post" target="hidden_iframe" onsubmit="return validateEmail();" id="form">
+            <input class="input-email" type="text" placeholder="Ingrese su email aquí" id="email" required name="entry.1578036061" oninput="validateAndEnableButton();" />
+            <button class="submit" type="submit" disabled onclick="gracias()">SUBSCRIBIRME</button>
+        </form>
+    </div>
+  </body>
+  <script type="text/javascript">
     var submitted = false;
     function validateEmail() {
         var email = document.getElementById("email").value;
@@ -16,33 +29,25 @@
         }
         if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
             return false
-        } return true
+        } else{
+            return true
+        }
     }
     function validateAndEnableButton() {
         var isValidEmail = validateEmail();
         var submitButton = document.querySelector(".submit");
         if (isValidEmail) {
             submitButton.removeAttribute("disabled")
+            submitButton.style.display = "block";
         } else {
             submitButton.setAttribute("disabled","true")
         }
     }
-</script>
-<body>
-    <div class="container-main">
-        <h1>ARROW99</h1>
-        <p class="subtitle">Desde 2018, nos vemos en 2024.</p>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none">
-        </iframe>
-
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYlfefhaxRXCHrJuQwjJLJ5tbTP_hY2ZbL4o2Kuvq2Qb1TdA/formResponse" method="post" target="hidden_iframe" onsubmit="return validateEmail();">
-            <input class="input-email" type="text" placeholder="Ingrese su email aquí" id="email" required name="entry.1578036061" oninput="validateAndEnableButton();" />
-            <button class="submit" type="submit" disabled>SUBSCRIBIRME</button>
-        </form>
-
-    </div>
-    <div class="container-photo">
-        <img src="./img/coffee-mac.jpeg">
-    </div>
-  </body>
+    function gracias() {
+        formHtml = document.getElementById("form");
+        graciasHtml = document.getElementById("gracias");
+        formHtml.style.display = "none";
+        graciasHtml.style.display = "block";
+    }
+  </script>
 </html>

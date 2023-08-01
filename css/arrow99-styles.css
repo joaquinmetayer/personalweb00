@@ -11,25 +11,17 @@
   -ms-user-select: none;
   user-select: none;
   box-sizing: border-box;
-  font-family: "Tiro Gurmukhi", serif;
+  font-family: "Lato", sans-serif;
   color: #000000;
   background-color: #ffffff;
 }
-body{
-    display: flex;
-}
 .container-main{
-    width: 50%;
+    width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.container-photo{
-    width: 50%;
-    height: 100vh;
-    contain: ;
 }
 img{
     width: 100%;
@@ -41,11 +33,11 @@ h1{
 }
 .subtitle{
     color: #00000095;
-    padding-top: 2px;
+    padding: 2px;
 }
 input{
     text-transform: lowercase;
-    padding: 8px 6px 6px 6px;
+    padding: 6px 6px 8px 6px;
     margin-top: 4px;
     margin-bottom: 4px;
     width: 229px;
@@ -71,13 +63,15 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 8px 8px 8px;
+    padding: 8px 8px 8px 8px;
     background-color: #000000;
     color: #fff;
     border-radius: 4px;
     border: 1px solid #00000050;
     cursor: pointer;
     transition: 0.25s;
+    font-size: 17px;
+    font-weight: bold;
 }
 button:disabled{
     color: #d7d7d7;
@@ -92,16 +86,7 @@ button:hover{
     padding-top: 12px;
     visibility: hidden;
 }
-@media (max-width: 800px) {
-    body{
-        flex-direction: column;
-    }
-    .container-main{
-        width: 100%;
-        height: 50vh;
-    }
-    .container-photo{
-        width: 100%;
-        height: 50vh;
-    }
+#gracias{
+    padding: 8px;
+    display: none;
 }

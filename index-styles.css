@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 20px;
 }
@@ -55,7 +55,7 @@ p {
 .arrow-title {
   padding-top: 10px;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
 }
@@ -74,15 +74,15 @@ input {
   font-size: 17px;
   font-weight: bold;
 }
-input:focus{
+input:focus {
   outline: none;
   box-shadow: none;
   background-color: none;
 }
-input::placeholder{
+input::placeholder {
   color: #00000050;
 }
-.submit{
+.submit {
   padding: 10px 7.5px;
   margin: 7.5px;
   width: 255px;
@@ -96,15 +96,20 @@ input::placeholder{
   border: 1px solid #ecececdf;
   font-weight: bold;
 }
-.submit:disabled{
+.submit:disabled {
   color: #00000060;
 }
-.submit:enabled:hover{
+.submit:enabled:hover {
   cursor: pointer;
   background: #f3f3f380;
   transition: 0.5s;
 }
-#gracias{
+#gracias {
   padding: 8px;
   display: none;
+}
+@media (max-width: 600px) {
+  body {
+    min-height: 90vh;
+  }
 }

@@ -18,18 +18,18 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 20px;
 }
-img{
+img {
   width: 100%;
 }
-.jbw{
+.jbw {
   width: 50px;
   margin: 10px;
   padding-bottom: 5px;
 }
-h2{
+h2 {
   padding-bottom: 8px;
 }
-.btn{
+.btn {
   padding: 10px 7.5px;
   margin: 7.5px;
   width: 255px;
@@ -42,13 +42,69 @@ h2{
   font-weight: bold;
   transition: 0.5s;
 }
-.btn:hover{
+.btn:hover {
   background: #f3f3f380;
   transition: 0.5s;
 }
-p{
+p {
   padding-top: 6px;
   text-align: center;
   font-size: 20px;
   color: #00000030;
+}
+.arrow-title {
+  padding-top: 10px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px 7.5px;
+  text-transform: lowercase;
+  margin: 7.5px;
+  width: 255px;
+  border-radius: 5px;
+  color: #000;
+  background: #ecececdf;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 1px solid #ecececdf;
+  font-size: 17px;
+  font-weight: bold;
+}
+input:focus{
+  outline: none;
+  box-shadow: none;
+  background-color: none;
+}
+input::placeholder{
+  color: #00000050;
+}
+.submit{
+  padding: 10px 7.5px;
+  margin: 7.5px;
+  width: 255px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #000;
+  background: #ecececdf;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 1px solid #ecececdf;
+  font-weight: bold;
+}
+.submit:disabled{
+  color: #00000060;
+}
+.submit:enabled:hover{
+  cursor: pointer;
+  background: #f3f3f380;
+  transition: 0.5s;
+}
+#gracias{
+  padding: 8px;
+  display: none;
 }

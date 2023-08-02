@@ -1,12 +1,13 @@
-<!doctype html>
-<title>Joaquin Metayer</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<link rel="icon" type="image/png" href="img/jm-white.png" />
-<link rel="stylesheet" type="text/css" media="screen" href="./css/index-styles.css" />
+<html lang="es">
+<head>
+  <title>Joaquin Metayer</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/jm-white.png" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/index-styles.css" />
+</head>
 <body>
-  <div class="background">
-  </div>
   <div class="jbw">
     <img src="./img/jm-black.png">
   </div>
@@ -15,6 +16,49 @@
   <a class="btn" href="https://www.instagram.com/jometa_" target="_blank">Instagram</a>
   <a class="btn" href="https://www.tiktok.com/@joaquinmetayer" target="_blank">TikTok</a>
   <a class="btn" href="https://www.linkedin.com/in/joaquinmetayer" target="_blank">LinkedIn</a>
-  <a class="btn" href="./arrow99.html" target="_blank">ARROW99</a>
+  <h2 class="arrow-title">ARROW99</h2>
+  <p id="gracias">¡Gracias por subscribirte!</p>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display: none">
+  </iframe>
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYlfefhaxRXCHrJuQwjJLJ5tbTP_hY2ZbL4o2Kuvq2Qb1TdA/formResponse" method="post" target="hidden_iframe" onsubmit="return validateEmail();" id="form">
+    <input class="input-email" type="text" placeholder="Ingrese su email aquí" id="email" required name="entry.1578036061" oninput="validateAndEnableButton();" />
+    <button class="submit" type="submit" disabled onclick="gracias()">Subscribirme</button>
+  </form>
   <p>joaquinmetayer@gmail.com</p>
 </body>
+<script type="text/javascript">
+  var submitted = false;
+  function validateEmail() {
+    var email = document.getElementById("email").value;
+    if (email.length == 0) {
+      return false
+    }
+      if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+          return false
+      } else{
+          return true
+      }
+  }
+  function validateAndEnableButton() {
+      var isValidEmail = validateEmail();
+      var submitButton = document.querySelector(".submit");
+      if (isValidEmail) {
+          submitButton.removeAttribute("disabled")
+          submitButton.style.display = "block";
+      } else {
+          submitButton.setAttribute("disabled","true")
+      }
+  }
+  function gracias() {
+      formHtml = document.getElementById("form");
+      graciasHtml = document.getElementById("gracias");
+      formHtml.style.display = "none";
+      graciasHtml.style.display = "block";
+      setTimeout(() => {
+        formHtml.style.display = "block";
+        graciasHtml.style.display = "none";
+        document.getElementById("email").value = "";
+      }, 2500);
+  }
+</script>
+</html>
